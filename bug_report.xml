@@ -1,1 +1,18 @@
-
+<?xml version="1.0" encoding="windows-1251"?>
+<bugReport>
+ <number>DL_01</number>
+ <title>White screen is displayed after tapping 'Free chest' icon in the store</title>
+ <environment>Huawei P30 Pro, Android 10</environment>
+ <precondition>The app is lounched</precondition>
+ <inputs>Login 1 Pass 123</inputs>
+ <STR>
+   <ol>
+    <li>Tap 'Store' icon</li>
+    <li>Tap 'Free chest' icon</li>
+   </ol> </STR>
+  <ER>The screen with the number of diamonds received is opened</ER>
+  <AR>White screen is displayed</AR>
+  <severity>Major</severity>
+  <priority>Medium</priority>
+  <attachments>None</attachments> 
+</bugReport>
